@@ -1,0 +1,25 @@
+>> About the Mini Project.
+
+Project has 3 pages.
+    First page -> login (Username , email and password)
+    Second page -> Country API 
+    Third page -> Age calculation based on DOB.
+
+>> Login page
+        This is page will ask to enter Name / email-d and password.
+        all input fields has validation to check empty value or correct format of email id
+        Once loged in successfully It will jump to country API page with a Nav bar menu displaying loged in name along wth menu option.
+        from the Nev Bar menu can navigate to other pages.
+
+>> Country API page
+        This page is fetching an external API which is consist of country details.
+        After fetchig it is displaying few information about the coutry including the natioanl flag image
+        This page also has a validation for country name. It will chaeck for empty field or wring country name.
+
+>> Age Calculator page
+        This page is basically calulating the age based on DOB. After entering the DOB it will display year, month and day based on DOB input.
+
+
+Figma Link -
+
+https://www.figma.com/file/BbEnDb5UEgblTjNPwiploy/Untitled?node-id=0%3A1
