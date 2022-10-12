@@ -8,6 +8,7 @@ function searchCountry(){
     .then((response) => response.json())
     .then((data) =>{
         console.log(data);
+        //try and use a template for this instead to keep your JS and HTML separate
         result.innerHTML=`  
         <img src="${data[0].flags.svg}" class="flag-img">
         <h3> ${data[0].name.common}</h3>

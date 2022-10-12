@@ -1,5 +1,5 @@
  
-  var year = document.getElementById("year");
+  var year = document.getElementById("year"); //try and get into the habit of using 'let' or 'const' for variables instead of 'var'
   var currentYear = (new Date()).getFullYear();
   for (var i = 1900; currentYear >= i ; currentYear--)
   {
@@ -49,7 +49,7 @@
         {
           var option = document.createElement("OPTION");
           option.innerHTML = arr31Month[k-1];
-          if(k==1)
+          if(k==1) //there is probably a more efficient way to do these checks, but this works :)
           {
             option.value = k;
           }
@@ -81,7 +81,7 @@
           month.appendChild(option);
         }
       }
-      if(x>=1 && x<=30)
+      if(x>=1 && x<=30) //will let you choose 30th Feb
       {
         y.innerHTML="";
         arrAllMonth = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -103,6 +103,8 @@
       let year1  = document.getElementById("year").value;
       let month1 = document.getElementById("month").value;
       let day1 = document.getElementById("date").value;
+
+      //have a look at moment.js for some prebuilt date functions that may help here too
 
       year = date.getFullYear()-year1;
       month = (date.getMonth()+1)-month1;

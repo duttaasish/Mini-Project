@@ -1,3 +1,5 @@
+/* CSS looks great and is well formatted. consider using @media queries for responsiveness across different sized devices too */
+
 body{
     /* background-color: lightskyblue; */
     background: url(background.jpeg) no-repeat center center fixed;
